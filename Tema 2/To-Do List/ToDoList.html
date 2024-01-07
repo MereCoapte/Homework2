@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="ToDoListCSS.css">
+        <title>Validare Formular</title>
+        <link rel="icon" type="image/png" href="../poze/homework.png">
+    </head>
+
+    <body>
+        <div id="todoList">
+            <h2>To-Do List</h2>
+            <input type="text" id="taskInput" placeholder="Adaugati o sarcina !">
+            <span onclick="addElement()" class="addBtn">Adauga</span>
+        </div>
+
+        <ul id="tasks">
+            <li>Cumparaturi</li>
+            <li class="checked">Mancat</li>
+            <li>Intalneste-te cu sefu'</li>
+            <li>Citeste cartea cumparata de saptamana trecuta</li>
+            <li>Organizeaza prin casa</li>
+        </ul>
+
+        <script src="ToDoListJS.js"></script>
+    </body>
+</html>
